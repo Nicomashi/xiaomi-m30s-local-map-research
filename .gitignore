@@ -1,0 +1,10 @@
+# Publish only explicitly approved source/documentation files.
+*
+!.gitignore
+!README.md
+!LICENSE
+!PUBLIC_KEY_REQUEST.md
+!pyproject.toml
+!uv.lock
+!firmware_zip_probe.py
+!firmware_rsa_probe.py
