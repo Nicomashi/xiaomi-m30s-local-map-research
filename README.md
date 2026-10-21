@@ -17,7 +17,7 @@ No firmware was written to the robot during this analysis. Model-specific root a
 
 ## Help wanted: public OTA key / stock unpacker
 
-See [the technical request](PUBLIC_KEY_REQUEST.md). A compatible **public** `/etc/publickey.pem`, `/etc/OTA_Key_pub.pem`, or stock `/ava/script/ota_unpack.sh` could enable further offline analysis. Compatibility must be checked against this exact OTA image; the filename alone is not evidence.
+See [the technical request](PUBLIC_KEY_REQUEST.md), published as [Dustcloud issue #356](https://github.com/dgiese/dustcloud/issues/356). A compatible **public** `/etc/publickey.pem`, `/etc/OTA_Key_pub.pem`, or stock `/ava/script/ota_unpack.sh` could enable further offline analysis. Compatibility must be checked against this exact OTA image; the filename alone is not evidence.
 
 Please do not upload private signing keys, Xiaomi passwords/tokens, device identity/calibration backups, private logs or home maps. A public key or a reference to a published stock script is enough for the current question.
 
